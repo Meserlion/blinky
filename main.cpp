@@ -1,3 +1,10 @@
+/*
+ * blinky.cpp
+ *
+ * Created: 5/31/2026 9:07:36 PM
+ * Author : Chris
+ */
+
 #define F_CPU 16000000UL
 
 #include <avr/io.h>
@@ -8,6 +15,7 @@
 int main(void)
 {
     DDRB |= (1 << LED_PIN);
+
     while (1)
     {
         PORTB |= (1 << LED_PIN);

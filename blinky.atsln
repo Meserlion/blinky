@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "blinky", "blinky.cproj", "{12345678-1234-1234-1234-123456789ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12345678-1234-1234-1234-123456789ABC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{12345678-1234-1234-1234-123456789ABC}.Debug|AVR.Build.0 = Debug|AVR
+		{12345678-1234-1234-1234-123456789ABC}.Release|AVR.ActiveCfg = Release|AVR
+		{12345678-1234-1234-1234-123456789ABC}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+EndGlobal
